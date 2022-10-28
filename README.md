@@ -29,12 +29,12 @@ pipenv install
 
 ```
 # Decrypt a full backup file
-pipenv run python decrypt_otpauth.py decrypt_backup --encrypted-otpauth-backup <path to your OTP Auth backup>
+pipenv run python decrypt_otpauth.py decrypt-backup --encrypted-otpauth-backup <path to your OTP Auth backup>
 ```
 
 ```
 # Decrypt a single account export
-pipenv run python decrypt_otpauth.py decrypt_account --encrypted-otpauth-account <path to your OTP Auth account>
+pipenv run python decrypt_otpauth.py decrypt-account --encrypted-otpauth-account <path to your OTP Auth account>
 ```
 
 ## Demo
